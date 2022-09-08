@@ -1,0 +1,9 @@
+Spring Boot 2 Essentials 09 - Método POST
+
+
+O Jackson faz o mapeamento com o @RequestBody, ele fará o mapeamento se os atributos de classe for exatamente o que ele receber,
+se ele receber algum atributo divergente o mesmo será ignorado.
+
+@JsonProperty("name") // Esta falando para o Jackson se ele receber um atrbuto com o nome name é para settar em nameCharacter
+private String nameCharacter;
+
